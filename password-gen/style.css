@@ -1,0 +1,34 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background: #f4f4f9;
+  display: flex;
+  flex-direction: column;
+}
+.settings label {
+  display: block;
+  margin-bottom: 10px;
+}
+.options {
+  margin: 15px 0;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+button:hover {
+  background: #0056b3;
+}
+.results-area {
+  margin-top: 20px;
+  font-family: monospace;
+  word-break: break-all;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  height: 200px;
+}

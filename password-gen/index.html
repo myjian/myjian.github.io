@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Secure Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Password Generator</h2>
+
+    <div class="settings">
+      <label>
+        Number of Passwords:
+        <input type="number" id="count" value="10" min="1" max="50" />
+      </label>
+      <label>
+        Length:
+        <input type="number" id="length" value="16" min="4" max="100" />
+      </label>
+
+      <div class="options">
+        <label>
+          <input type="radio" name="charset" value="alphanum" checked />
+          Alphanumeric
+        </label>
+        <label>
+          <input type="radio" name="charset" value="symbols" />
+          Alphanumeric + Symbols
+        </label>
+      </div>
+    </div>
+    <button id="generateBtn">Generate Passwords</button>
+    <textarea id="results" class="results-area" autocomplete="off"></textarea>
+    <script src="script.js"></script>
+  </body>
+</html>
