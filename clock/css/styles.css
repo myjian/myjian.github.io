@@ -1,0 +1,19 @@
+html {
+    background-color: #fffdea;
+}
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    min-width: 420px;
+}
+
+.clock {
+    background-color: rgb(36, 30, 30);
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 1rem;
+}
